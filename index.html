@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" contents="Mistserver familiarization">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+       <div style="padding-top:30px">
+        HELLO WORLD!
+       </div>
+
+      </div>
+        <div class="mistvideo" id="laundromat_VwEuoXytGxVS" style="font-size:0.5em;">
+            <noscript>
+              <a href="http://petya:8080/laundromat.html" target="_blank">
+                Click here to play this video
+              </a>
+            </noscript>
+            <script>
+              var a = function(){
+                mistPlay("laundromat",{
+                  target: document.getElementById("laundromat_VwEuoXytGxVS"),
+                  skin:"dev"
+                });
+              };
+              if (!window.mistplayers) {
+                var p = document.createElement("script");
+                p.src = "http://petya:8080/player.js"
+                document.head.appendChild(p);
+                p.onload = a;
+              }
+              else { a(); }
+            </script>
+          </div>
+          <div class="mistvideo" id="bunny_Fr1pQgdWf3OM">
+            <noscript>
+              <a href="http://petya:8080/bunny.html" target="_blank">
+                Click here to play this video
+              </a>
+            </noscript>
+            <script>
+              var a = function(){
+                mistPlay("bunny",{
+                  target: document.getElementById("bunny_Fr1pQgdWf3OM"),
+                  skin: "dev"
+                });
+              };
+              if (!window.mistplayers) {
+                var p = document.createElement("script");
+                p.src = "http://petya:8080/player.js"
+                document.head.appendChild(p);
+                p.onload = a;
+              }
+              else { a(); }
+            </script>
+          </div>
+    </body>
+</html>
